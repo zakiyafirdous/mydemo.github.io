@@ -1,0 +1,82 @@
+@font-face { font-family: 'seenthissansunderlineunderline-1'; src: url(https://video.seenthis.se/v2/creatives/wstZG6c1l/assets/nzFQ7SWyW.woff) format('woff'); }
+
+
+.border {
+    position: absolute;
+      border: solid 10px #ff8c52;
+    width: 280px;
+    height: 92%;
+}
+.copy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 35px;
+    opacity: 0;
+    right: 20px;
+    top: 20px;
+}
+
+.logo-end {
+    width: 140px;
+    position: absolute;
+    opacity: 0;
+    margin-left: -8px;
+}
+
+.copy1 {
+    font-family: 'seenthissansunderlineunderline-1';
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 116px;
+    margin-left: 23px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.copy2 {
+    font-family: 'seenthissansunderlineunderline-1';
+    color: #fff;
+    font-size: 27px;
+    margin-bottom: 116px;
+    margin-left: 23px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    z-index: 3;
+}
+.cta {
+    position: absolute;
+    font-family: 'seenthissansunderlineunderline-1';
+    font-size: 15px;
+    color: #ff5d0c;
+    background-color: #fff;
+         padding: 11px 10px 12px 10px;
+    text-align: center;
+    border-color: #fff;
+    width: 108px;
+    height: auto;
+    bottom: 18px;
+    right: 18px;
+    transition: 0.5s ease-in-out;
+}
+
+
+img {
+width: 100%;
+height: auto;
+}
+
+
+.activator.is-active {
+opacity: 1;
+} 

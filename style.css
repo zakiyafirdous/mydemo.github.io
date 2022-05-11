@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .column {
+      width: 33.33%;
+    }
+  }
+.myblack-color{
+    color: #000;
+}
+.myblack-bgcolor{
+    background-color: #000;
+    color: #fff;
+}
+.mybrown-color{
+    background-color: brown;
+    color: cornsilk;
+}
+.myblue-color{
+    background-color: #59a6b5;
+}
+.mylightpink-color{
+    background-color: #F9858B;
+}
+.mygrey-color{
+    background-color: rgba(185, 166, 166, 0.918);
+}
+.my-color{
+    background-color: #046443;
+}
+.mygreen-color{
+  background-color: #b80759;
+}
+.mymint-color{
+  color: #000;
+  background-color:#ADEFD1FF ;
+}
+.font-style{
+  color: #000;
+  font-style: bold;
+  font-weight: 150;
+  font-variant: initial;
+
+}

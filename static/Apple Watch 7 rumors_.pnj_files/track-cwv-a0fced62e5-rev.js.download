@@ -1,0 +1,1 @@
+define(["jquery","version!fly/managers/debug","managers/core-web-vitals","version!fly/components/base"],function(e,n,i){n=n.init("trackCWV"),e.widget("cnet.trackCWV",e.fly.base,{options:{},_create:function(){this._super(),i.init()}})});
